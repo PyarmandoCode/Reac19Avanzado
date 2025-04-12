@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @tailwind base; → Agrega los estilos básicos de Tailwind.
+@tailwind components; → Permite crear componentes reutilizables.
+@tailwind utilities; → Activa las clases de utilidad de Tailwind. */
