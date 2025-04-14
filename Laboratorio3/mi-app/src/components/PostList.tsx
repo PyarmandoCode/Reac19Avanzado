@@ -7,6 +7,9 @@ export const PostList = () => {
     const { data,error,isLoading } = useQuery({
         queryKey:['posts'],
         queryFn:fetchPosts,
+        
+        //cacheTime:0,
+        //staleTime:0
     })
     const [title,setTitle] = useState('')
     const [body,setBody]= useState('')
